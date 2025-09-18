@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_social_social_sections",
+  "info": {
+    "displayName": "Social_Section",
+    "icon": "book"
+  },
+  "options": {},
+  "attributes": {
+    "Socials": {
+      "type": "component",
+      "component": "social.social",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

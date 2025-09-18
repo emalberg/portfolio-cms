@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_social_socials",
+  "info": {
+    "displayName": "Social",
+    "icon": "twitter"
+  },
+  "options": {},
+  "attributes": {
+    "Order": {
+      "type": "integer",
+      "required": true
+    },
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "Link": {
+      "type": "string",
+      "required": true
+    },
+    "Icon": {
+      "type": "component",
+      "component": "icon.icon",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

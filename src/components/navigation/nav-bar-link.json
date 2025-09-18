@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_navigation_nav_bar_links",
+  "info": {
+    "displayName": "NavBar_Link",
+    "icon": "layer"
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "Target": {
+      "type": "string",
+      "required": false
+    },
+    "Order": {
+      "type": "integer",
+      "required": true
+    }
+  },
+  "config": {}
+}

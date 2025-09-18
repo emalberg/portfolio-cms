@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_certificate_certificate_sections",
+  "info": {
+    "displayName": "Certificate_Section",
+    "icon": "emotionHappy"
+  },
+  "options": {},
+  "attributes": {
+    "Order": {
+      "type": "integer",
+      "required": true
+    },
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "blocks"
+    },
+    "Certificates": {
+      "type": "component",
+      "component": "certificate.certificate",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

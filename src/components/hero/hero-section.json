@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_hero_hero_sections",
+  "info": {
+    "displayName": "Hero Section",
+    "icon": "rocket"
+  },
+  "options": {},
+  "attributes": {
+    "Order": {
+      "type": "integer",
+      "required": true
+    },
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "Phrase": {
+      "type": "text"
+    },
+    "Keyword": {
+      "type": "json"
+    },
+    "Personal_Bio": {
+      "type": "blocks"
+    },
+    "Professional_Bio": {
+      "type": "blocks"
+    },
+    "Personal_Bio_Title": {
+      "type": "string"
+    },
+    "Professional_Bio_Title": {
+      "type": "string"
+    },
+    "Background": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    }
+  },
+  "config": {}
+}

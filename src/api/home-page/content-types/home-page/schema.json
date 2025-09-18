@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "Home Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Hero_Section": {
+      "type": "component",
+      "component": "hero.hero-section",
+      "repeatable": false
+    },
+    "Skill_Section": {
+      "type": "component",
+      "component": "skill.skill-section",
+      "repeatable": false
+    },
+    "Project_Section": {
+      "type": "component",
+      "component": "project.project-section",
+      "repeatable": false
+    },
+    "Certificate_Section": {
+      "type": "component",
+      "component": "certificate.certificate-section",
+      "repeatable": false
+    },
+    "Social_Section": {
+      "type": "component",
+      "component": "social.social-section",
+      "repeatable": false
+    }
+  }
+}

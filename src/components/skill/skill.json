@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_skill_skills",
+  "info": {
+    "displayName": "Skill",
+    "icon": "chartBubble"
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Icon": {
+      "type": "component",
+      "component": "icon.icon",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

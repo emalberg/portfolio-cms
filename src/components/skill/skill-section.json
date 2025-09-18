@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_skill_skill_sections",
+  "info": {
+    "displayName": "Skill_Section",
+    "icon": "expand"
+  },
+  "options": {},
+  "attributes": {
+    "Order": {
+      "type": "integer",
+      "required": true
+    },
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Sub": {
+      "type": "blocks"
+    },
+    "Skills": {
+      "type": "component",
+      "component": "skill.skill",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

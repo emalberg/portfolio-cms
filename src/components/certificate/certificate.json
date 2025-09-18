@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_certificate_certificates",
+  "info": {
+    "displayName": "Certificate",
+    "icon": "thumbUp"
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Issuer": {
+      "type": "string"
+    },
+    "dateReceived": {
+      "type": "date"
+    },
+    "expirationDate": {
+      "type": "date"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

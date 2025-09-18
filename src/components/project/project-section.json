@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_project_project_sections",
+  "info": {
+    "displayName": "Project_Section",
+    "icon": "dashboard"
+  },
+  "options": {},
+  "attributes": {
+    "Order": {
+      "type": "integer",
+      "required": true
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "blocks"
+    },
+    "Projects": {
+      "type": "component",
+      "component": "project.project",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}
