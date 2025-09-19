@@ -17,6 +17,11 @@
     "Link": {
       "type": "string",
       "required": true
+    },
+    "Icon": {
+      "type": "component",
+      "component": "icon.icon",
+      "repeatable": false
     }
   },
   "config": {}

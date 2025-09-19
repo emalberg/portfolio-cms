@@ -48,6 +48,18 @@ export interface HeroHeroSection extends Struct.ComponentSchema {
   };
 }
 
+export interface IconIcon extends Struct.ComponentSchema {
+  collectionName: 'components_icon_icons';
+  info: {
+    displayName: 'Icon';
+    icon: 'apps';
+  };
+  attributes: {
+    Name: Schema.Attribute.String & Schema.Attribute.Required;
+    SVG: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+  };
+}
+
 export interface NavigationCtaButton extends Struct.ComponentSchema {
   collectionName: 'components_navigation_cta_buttons';
   info: {
@@ -109,6 +121,7 @@ export interface SkillSkill extends Struct.ComponentSchema {
     icon: 'chartBubble';
   };
   attributes: {
+    Icon: Schema.Attribute.Component<'icon.icon', false>;
     Name: Schema.Attribute.String;
   };
 }
@@ -134,6 +147,7 @@ export interface SocialSocial extends Struct.ComponentSchema {
     icon: 'message';
   };
   attributes: {
+    Icon: Schema.Attribute.Component<'icon.icon', false>;
     Link: Schema.Attribute.String & Schema.Attribute.Required;
     Name: Schema.Attribute.String & Schema.Attribute.Required;
     Order: Schema.Attribute.Integer & Schema.Attribute.Required;
@@ -157,6 +171,7 @@ declare module '@strapi/strapi' {
       'certificate.certificate': CertificateCertificate;
       'certificate.certificate-section': CertificateCertificateSection;
       'hero.hero-section': HeroHeroSection;
+      'icon.icon': IconIcon;
       'navigation.cta-button': NavigationCtaButton;
       'navigation.nav-bar-link': NavigationNavBarLink;
       'project.project': ProjectProject;
