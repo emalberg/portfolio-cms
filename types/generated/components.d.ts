@@ -109,6 +109,7 @@ export interface SkillSkill extends Struct.ComponentSchema {
     icon: 'chartBubble';
   };
   attributes: {
+    Icon: Schema.Attribute.Media<'images' | 'files'>;
     Name: Schema.Attribute.String;
   };
 }
@@ -134,6 +135,7 @@ export interface SocialSocial extends Struct.ComponentSchema {
     icon: 'message';
   };
   attributes: {
+    Icon: Schema.Attribute.Media<'images' | 'files'>;
     Link: Schema.Attribute.String & Schema.Attribute.Required;
     Name: Schema.Attribute.String & Schema.Attribute.Required;
     Order: Schema.Attribute.Integer & Schema.Attribute.Required;

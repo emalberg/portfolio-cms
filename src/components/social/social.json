@@ -17,6 +17,14 @@
     "Link": {
       "type": "string",
       "required": true
+    },
+    "Icon": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
     }
   },
   "config": {}
