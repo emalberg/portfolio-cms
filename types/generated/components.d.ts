@@ -48,15 +48,6 @@ export interface HeroHeroSection extends Struct.ComponentSchema {
   };
 }
 
-export interface IconIcon extends Struct.ComponentSchema {
-  collectionName: 'components_icon_icons';
-  info: {
-    displayName: 'Icon';
-    icon: 'apps';
-  };
-  attributes: {};
-}
-
 export interface NavigationCtaButton extends Struct.ComponentSchema {
   collectionName: 'components_navigation_cta_buttons';
   info: {
@@ -166,7 +157,6 @@ declare module '@strapi/strapi' {
       'certificate.certificate': CertificateCertificate;
       'certificate.certificate-section': CertificateCertificateSection;
       'hero.hero-section': HeroHeroSection;
-      'icon.icon': IconIcon;
       'navigation.cta-button': NavigationCtaButton;
       'navigation.nav-bar-link': NavigationNavBarLink;
       'project.project': ProjectProject;
