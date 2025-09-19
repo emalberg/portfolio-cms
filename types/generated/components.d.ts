@@ -144,7 +144,7 @@ export interface SocialSocial extends Struct.ComponentSchema {
   collectionName: 'components_social_socials';
   info: {
     displayName: 'Social';
-    icon: 'twitter';
+    icon: 'message';
   };
   attributes: {
     Icon: Schema.Attribute.Component<'icon.icon', false>;
