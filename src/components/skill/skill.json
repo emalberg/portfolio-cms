@@ -8,11 +8,6 @@
   "attributes": {
     "Name": {
       "type": "string"
-    },
-    "Icon": {
-      "type": "component",
-      "component": "icon.icon",
-      "repeatable": false
     }
   },
   "config": {}
