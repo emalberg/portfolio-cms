@@ -54,10 +54,7 @@ export interface IconIcon extends Struct.ComponentSchema {
     displayName: 'Icon';
     icon: 'apps';
   };
-  attributes: {
-    Name: Schema.Attribute.String;
-    SVG: Schema.Attribute.Media<'images' | 'files'>;
-  };
+  attributes: {};
 }
 
 export interface NavigationCtaButton extends Struct.ComponentSchema {
@@ -121,7 +118,6 @@ export interface SkillSkill extends Struct.ComponentSchema {
     icon: 'chartBubble';
   };
   attributes: {
-    Icon: Schema.Attribute.Component<'icon.icon', false>;
     Name: Schema.Attribute.String;
   };
 }
@@ -147,7 +143,6 @@ export interface SocialSocial extends Struct.ComponentSchema {
     icon: 'message';
   };
   attributes: {
-    Icon: Schema.Attribute.Component<'icon.icon', false>;
     Link: Schema.Attribute.String & Schema.Attribute.Required;
     Name: Schema.Attribute.String & Schema.Attribute.Required;
     Order: Schema.Attribute.Integer & Schema.Attribute.Required;
