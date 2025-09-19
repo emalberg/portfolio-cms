@@ -52,7 +52,7 @@ export interface IconIcon extends Struct.ComponentSchema {
   collectionName: 'components_icon_icons';
   info: {
     displayName: 'Icon';
-    icon: 'landscape';
+    icon: 'apps';
   };
   attributes: {
     Name: Schema.Attribute.String;
