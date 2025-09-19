@@ -121,7 +121,6 @@ export interface SkillSkill extends Struct.ComponentSchema {
     icon: 'chartBubble';
   };
   attributes: {
-    Icon: Schema.Attribute.Component<'icon.icon', false>;
     Name: Schema.Attribute.String;
   };
 }
